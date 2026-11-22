@@ -63,6 +63,7 @@ header.scrolled{box-shadow:0 10px 30px -18px rgba(0,0,0,.45)}
 .hbar{display:flex;align-items:center;gap:22px;height:80px;transition:height .3s var(--ease)}
 header.scrolled .hbar{height:66px}
 .brand{display:flex;align-items:center;text-decoration:none;flex:none}
+.tlogo{width:auto;display:block;transition:height .3s}.tflogo{height:110px;width:auto;display:block}.tfpill{display:inline-block;background:#fff;border-radius:18px;padding:14px 18px}.fgrid .tflogo,.fgrid .tfpill{margin-bottom:18px}
 .brandrow{display:flex;align-items:center;gap:12px}.lbadge{width:46px;height:46px;border-radius:12px;object-fit:cover;flex:none;box-shadow:0 0 0 1px rgba(0,0,0,.08)}.lbadge.round{border-radius:50%}.lbadge.big{width:84px;height:84px;border-radius:20px}.lbadge.round.big{border-radius:50%}header.scrolled .lbadge{width:40px;height:40px}.lpill{display:inline-flex;align-items:center;background:#fff;border-radius:12px;padding:7px 12px;box-shadow:0 0 0 1px rgba(0,0,0,.08)}.lpill img{height:34px;width:auto}.lpill.big{padding:12px 18px}.lpill.big img{height:56px}
 .brandimg{height:56px;width:auto;transition:height .3s var(--ease)}
 header.scrolled .brandimg{height:45px}
@@ -322,7 +323,7 @@ footer ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
 <body>
 <div class="demo" role="note">Concept website prepared for OwnerSourced by <a href="https://magolabs.in">Mago Labs</a>. Not the live site.</div>
 <div class="prog" aria-hidden="true"></div>
-<header id="hdr" class="hdr-light"><div class="wrap hbar"><a class="brand" href="#top" aria-label="OwnerSourced, back to top"><span class="brandrow"><img class="lbadge" src="img/badge.webp" alt="OwnerSourced logo" width="160" height="160"><span class="wordmark"><b>OwnerSourced</b><small>Source direct. Build smarter.</small></span></span></a>
+<header id="hdr" class="hdr-dark"><div class="wrap hbar"><a class="brand" href="#top" aria-label="OwnerSourced, back to top"><img class="tlogo" src="img/logo-ownersourced.webp" alt="OwnerSourced logo" width="600" height="405" style="height:58px"></a>
 <nav aria-label="Main"><a href="#services">What we source</a><a href="#how">How it works</a><a href="#why">Why direct</a><a href="#quote">Get connected</a></nav>
 <a class="btn btn-a hcall magnetic" href="#quote"><span>Get connected</span></a>
 </div></header><main id="top">
@@ -375,7 +376,7 @@ footer ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
 <form id="qf" class="rv" novalidate><h3>Start your sourcing brief</h3><div><label for="f-name">Your name</label><input id="f-name" name="name" autocomplete="name" required><p class="err">Please add your name.</p></div><div><label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required><p class="err">Please add a phone number so we can call you back.</p></div><div><label for="f-loc">Where is the build?</label><input id="f-loc" name="loc" autocomplete="address-level2"></div><div><label for="f-job">What do you need?</label><select id="f-job" name="job"><option>Cabinets and joinery</option><option>Windows and doors</option><option>Skylights</option><option>Custom handles</option><option>Blinds, curtains and shutters</option><option>More than one of these</option></select></div><div class="full"><label for="f-msg">Tell us about the job</label><textarea id="f-msg" name="msg"></textarea></div><div class="full" style="display:flex;flex-wrap:wrap;gap:14px;align-items:center"><button class="btn btn-a" type="submit">Get connected</button><span class="formnote">No obligation.</span></div><p class="ok" id="ok" role="status">Thanks! This is a concept site, so nothing was sent. On the live site your request goes straight to the OwnerSourced team.</p></form></div></section>
 <div class="wrap"><div class="final rv"><div><h2>Pay the factory price, not the showroom price.</h2><p>Tell us about your build and get connected with vetted factories.</p></div><div class="ctas"><a class="btn btn-dk" href="#quote">Get connected</a></div></div></div>
 <footer id="foot"><div class="foot-aurora" aria-hidden="true"></div><div class="foot-giant" aria-hidden="true" style="--gsz:13vw">SOURCE DIRECT</div><div class="wrap"><div class="fgrid"><div>
-<span class="brandrow"><img class="lbadge big" src="img/badge.webp" alt="OwnerSourced logo" width="160" height="160"><span class="wordmark"><b>OwnerSourced</b><small>Source direct. Build smarter.</small></span></span>
+<img class="tflogo" src="img/logo-ownersourced.webp" alt="OwnerSourced logo" width="600" height="405">
 <p>Connecting Australian owner builders, renovators and builders with vetted factories. Source direct. Build smarter.</p></div>
 <div><h4>Source</h4><ul><li>Cabinets and joinery</li><li>Windows and doors</li><li>Skylights</li><li>Custom handles</li><li>Blinds, curtains and shutters</li></ul></div>
 <div><h4>Company</h4><ul><li><a href="#how">How it works</a></li><li><a href="#why">Why direct</a></li><li><a href="#quote">Get connected</a></li><li><a href="https://www.instagram.com/ownersourced/">Instagram</a></li></ul></div>
